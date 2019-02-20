@@ -1,0 +1,227 @@
+2019-01-04 15:10:33 [scrapy.core.scraper] ERROR: Error processing {'zhAddress': '韩国',
+ 'zhLink': 'position_detail.php?id=44572&keywords=&tid=0&lid=0',
+ 'zhName': '25666-Tencent Cloud BD Manager – Gaming（Overseas - Japan/Korea）',
+ 'zhNum': '2',
+ 'zhTime': '2019-01-04',
+ 'zhType': '市场类'}
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\王伟超\Crawl\day07\Tengxun\Tengxun\pipelines.py", line 64, in process_item
+    self.cursor.execute(ins,L)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'zhName' at row 1")
+2019-01-04 15:10:33 [scrapy.core.scraper] ERROR: Error processing {'zhAddress': '韩国',
+ 'zhLink': 'position_detail.php?id=44553&keywords=&tid=0&lid=0',
+ 'zhName': '25663-Tencent cloud game solution architect '
+           '(overseas)（Japan/Korea）',
+ 'zhNum': '2',
+ 'zhTime': '2019-01-04',
+ 'zhType': '技术类'}
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\王伟超\Crawl\day07\Tengxun\Tengxun\pipelines.py", line 64, in process_item
+    self.cursor.execute(ins,L)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'zhName' at row 1")
+2019-01-04 15:10:33 [scrapy.core.scraper] ERROR: Error processing {'zhAddress': '香港',
+ 'zhLink': 'position_detail.php?id=44843&keywords=&tid=0&lid=0',
+ 'zhName': 'HGJ-Senior Legal Counsel, Tencent, US M&A and Capital Markets（Hong '
+           'Kong）',
+ 'zhNum': '1',
+ 'zhTime': '2019-01-04',
+ 'zhType': '职能类'}
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\王伟超\Crawl\day07\Tengxun\Tengxun\pipelines.py", line 64, in process_item
+    self.cursor.execute(ins,L)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'zhName' at row 1")
+2019-01-04 15:10:34 [scrapy.core.scraper] ERROR: Error processing {'zhAddress': '深圳',
+ 'zhLink': 'position_detail.php?id=45182&keywords=&tid=0&lid=0',
+ 'zhName': '28297-Strategic Planning Manager – Oversea Business',
+ 'zhNum': '1',
+ 'zhTime': '2019-01-04',
+ 'zhType': '市场类'}
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\王伟超\Crawl\day07\Tengxun\Tengxun\pipelines.py", line 64, in process_item
+    self.cursor.execute(ins,L)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'zhName' at row 1")
+2019-01-04 15:10:34 [scrapy.core.scraper] ERROR: Error processing {'zhAddress': '美国',
+ 'zhLink': 'position_detail.php?id=45279&keywords=&tid=0&lid=0',
+ 'zhName': '21557-Software Engineer – VR (Silicon Valley/Shenzhen/Beijing)',
+ 'zhNum': '2',
+ 'zhTime': '2019-01-04',
+ 'zhType': '技术类'}
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\王伟超\Crawl\day07\Tengxun\Tengxun\pipelines.py", line 64, in process_item
+    self.cursor.execute(ins,L)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'zhName' at row 1")
+2019-01-04 15:10:34 [scrapy.core.scraper] ERROR: Error processing {'zhAddress': '美国',
+ 'zhLink': 'position_detail.php?id=45280&keywords=&tid=0&lid=0',
+ 'zhName': '21557-Principal Researcher/Tech Lead (Silicon '
+           'Valley/Shenzhen/Beijing)',
+ 'zhNum': '1',
+ 'zhTime': '2019-01-04',
+ 'zhType': '技术类'}
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\王伟超\Crawl\day07\Tengxun\Tengxun\pipelines.py", line 64, in process_item
+    self.cursor.execute(ins,L)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'zhName' at row 1")
+2019-01-04 15:10:35 [scrapy.core.scraper] ERROR: Error processing {'zhAddress': '美国',
+ 'zhLink': 'position_detail.php?id=45357&keywords=&tid=0&lid=0',
+ 'zhName': '21557-Senior Researcher(Silicon Valley/Shenzhen/Beijing)',
+ 'zhNum': '1',
+ 'zhTime': '2019-01-04',
+ 'zhType': '技术类'}
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\王伟超\Crawl\day07\Tengxun\Tengxun\pipelines.py", line 64, in process_item
+    self.cursor.execute(ins,L)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'zhName' at row 1")
+2019-01-04 15:10:38 [scrapy.core.scraper] ERROR: Error processing {'zhAddress': '香港',
+ 'zhLink': 'position_detail.php?id=46112&keywords=&tid=0&lid=0',
+ 'zhName': 'GY0-Business Development Manager - Cloud (Hong Kong）',
+ 'zhNum': '1',
+ 'zhTime': '2019-01-04',
+ 'zhType': '市场类'}
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\王伟超\Crawl\day07\Tengxun\Tengxun\pipelines.py", line 64, in process_item
+    self.cursor.execute(ins,L)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'zhName' at row 1")
